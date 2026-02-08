@@ -11,7 +11,6 @@ while num > 0:
     digit = num % 10          
     total = total + (digit ** digits_count)  
     num = num // 10           
-# check if Armstrong or not
 if total == original_num:
     print("It is an Armstrong number, this is the sum:", total)
 else:
